@@ -1,4 +1,3 @@
-
 an="$GIT_AUTHOR_NAME"
 am="$GIT_AUTHOR_EMAIL"
 cn="$GIT_COMMITTER_NAME"
@@ -6,13 +5,13 @@ cm="$GIT_COMMITTER_EMAIL"
 
 if [ "$GIT_COMMITTER_EMAIL" = "JamieMcKenzie@users.noreply.github.com" ]
 then
-    cn="Jamie McKenzie"
-    cm="jamiemckenzie415@gmail.com"
+    cn="Your New Committer Name"
+    cm="Your New Committer Email"
 fi
 if [ "$GIT_AUTHOR_EMAIL" = "JamieMcKenzie@users.noreply.github.com" ]
 then
-    an="Jamie McKenzie"
-    am="jamiemckenzie415@gmail.com"
+    an="Your New Author Name"
+    am="Your New Author Email"
 fi
 
 export GIT_AUTHOR_NAME="$an"
